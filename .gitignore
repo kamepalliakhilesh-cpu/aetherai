@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.env.*
+config.json
+*.key
+*.pem
+
+# Databases & Local Runtime Data
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python Artifacts & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaged Binaries & Large Archives
+*.apk
+*.aab
+dist/
+build/
+*.exe
+*.zip
+
+# Scratch & Logs
+scratch/
+*.log
+.DS_Store
+Thumbs.db
+

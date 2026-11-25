@@ -1,0 +1,58 @@
+# =============================================================================
+# JARVIS / Aether AI Operating System - Locked Dependency Specification
+# Tested & Verified on Windows 11 (x64) with Python 3.11, 3.12, 3.13, and 3.14
+# =============================================================================
+
+# --- UI & Spatial Webview Architecture ---
+pywebview==6.2.1
+clr_loader==0.3.1
+pythonnet==3.2.1
+
+# --- Hardware Telemetry & System Monitoring ---
+psutil==7.2.2
+
+# --- Network, Cloud LLM APIs & Protocols ---
+requests==2.34.2
+urllib3==2.8.0
+certifi==2026.10.23
+websockets==17.4
+qrcode==8.2
+cryptography>=43.0.0
+google-genai==3.5.0
+google-auth==2.62.2
+python-dotenv==1.2.3
+
+# --- Real-Time Full-Duplex Voice & Audio Engine ---
+sounddevice==0.5.6
+SpeechRecognition==3.17.0
+numpy==2.5.3
+edge-tts==7.3.1
+
+# --- Python 3.13 / 3.14 Compatibility Shims for Audio & Standard Libraries ---
+audioop-lts==0.2.2
+standard-aifc==3.13.0
+standard-chunk==3.13.0
+cffi==2.1.1
+
+# --- Autonomous Computer Use, Input Emulation & Document Parsing ---
+PyAutoGUI==0.9.54
+PyGetWindow==0.0.9
+PyRect==0.2.0
+PyScreeze==1.0.1
+pyperclip==1.11.0
+keyboard==0.13.5
+pypdf==7.1.0
+
+# --- High-DPI Display Capture & Computer Vision ---
+pillow==12.3.0
+mss==10.2.0
+
+# --- Optional: Advanced Windows UI Automation (pywinauto / UIAutomation) ---
+# When omitted, screen perception falls back to coordinate and vision-based automation.
+# pywin32==308
+# pywinauto==0.6.8
+# uiautomation==2.1.4
+# comtypes==1.4.10
+
+# --- Optional: Webcam Vision (for webcam_actions.py) ---
+# opencv-python==4.11.0.86

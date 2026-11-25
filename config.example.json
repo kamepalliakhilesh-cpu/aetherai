@@ -1,0 +1,17 @@
+{
+  "assistant_name": "Aether",
+  "provider": "gemini",
+  "gemini_api_key": "",
+  "openrouter_api_key": "",
+  "model_name": "gemini-2.0-flash",
+  "openrouter_model": "google/gemini-2.0-flash-001",
+  "voice_name": "Microsoft David Desktop",
+  "speech_rate": 1.0,
+  "speech_pitch": 1.0,
+  "auto_listen": true,
+  "barge_in": true,
+  "mic_sensitivity": "medium",
+  "startup_briefing": true,
+  "hotkey": "alt+space",
+  "sound_effects": true
+}
